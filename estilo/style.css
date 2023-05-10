@@ -44,7 +44,7 @@ header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte2);
-    font-size: 5vw;
+    font-size: 10vw;
 }
 
 header > p {
@@ -74,7 +74,7 @@ section {
     font-family: var(--fonte3);
     font-style: italic;
     font-weight: bolder;
-    font-size: 3vw;
+    font-size: 4vw;
 }
 
 section > p {
