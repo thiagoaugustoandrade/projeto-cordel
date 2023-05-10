@@ -1,0 +1,134 @@
+/* 
+1- CONFIGURAÇÕES GERAIS
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* --------------------------------*/
+/*
+IMPORTAR FONTES DE USO */
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Sriracha&display=swap');
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+/* --------------------------------*/
+
+/* 
+2- CONFIGURAÇÕES EM COMUM
+*/
+html, body{
+    min-height: 100vh;
+    background-color: rgb(99, 99, 99);
+    font-family: var(--fonte1);
+}
+/*-------------------------------*/
+
+/* 
+3- HEADER - CABEÇALHO
+*/
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 5vw;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+/*----------------------------------- */
+
+/* 
+4- SECTION 
+*/
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 3vw;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgba(0, 0, 0, 0.621);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.329);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.32);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.447);
+}
+
+section#img01 {
+    background-image:url('../imagens/background001.jpg');
+    background-position: right center;
+    
+}
+
+section#img02 {
+    background-image:url('../imagens/background002.jpg');
+    background-position: right center;
+   
+}
+/*------------------------------*/
+
+
+
+
+
+
+
+
+
+
+/* 
+FOOTER - RODAPÉ
+*/
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
